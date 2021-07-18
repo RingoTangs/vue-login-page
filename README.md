@@ -65,3 +65,8 @@ protected void configure(HttpSecurity http) throws Exception {
 
 注：访问  `'/'`  默认会重定向到 `'/home'`，路由跳转前会到后端拿用户数据（如果spring-security开启rememberMe功能，即可实现自动登录）。
 
+
+
+## 关于打包部署问题
+
+[请参考](https://zhuanlan.zhihu.com/p/103244419?utm_source=qq&utm_medium=social&utm_oi=1021039691520462848)
